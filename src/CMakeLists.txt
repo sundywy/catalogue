@@ -1,0 +1,1 @@
+add_executable(catalogue main.cpp)
