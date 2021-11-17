@@ -3,4 +3,8 @@ project(catalogue)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include(setup_conan.cmake)
+enable_testing()
+
 add_subdirectory(src)
+add_subdirectory(test)
